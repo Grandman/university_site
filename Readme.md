@@ -3,3 +3,7 @@
 * Install Vagrant triggers `vagrant plugin install vagrant-triggers`
 * Install vagrant-hostupdater `vagrant plugin install vagrant-hostsupdater`
 * `vagrant up`
+
+* go to http://wpvagrant.dev/
+* login: admin
+* password: 123
