@@ -60,8 +60,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # Vagrant triggers
   config.trigger.before :destroy, :stdout => true do
-    info "Dumping the database before destroying the VM..."
-    run  "vagrant ssh -c 'sh /vagrant/wp-vagrant/mysql/db_dump.sh'"
+    #info "Dumping the database before destroying the VM..."
+    #run  "vagrant ssh -c 'sh /vagrant/wp-vagrant/mysql/db_dump.sh'"
   end
 
   # provisioning script
