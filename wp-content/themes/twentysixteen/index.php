@@ -59,4 +59,5 @@ get_header(); ?>
 	</div><!-- .content-area -->
 
 <?php get_sidebar(); ?>
+ ololo
 <?php get_footer(); ?>

@@ -1,7 +1,7 @@
 <?php
 
 // ** MySQL settings - You can get this info from your web host ** //
-$url = parse_url(getenv('CLEARDB_DATABASE_URL') ? getenv('CLEARDB_DATABASE_URL'): 'mysql://root:root@localhost/wp_vagrantf?reconnect=true');
+$url = parse_url(getenv('CLEARDB_DATABASE_URL') ? getenv('CLEARDB_DATABASE_URL'): 'mysql://root:root@localhost/wp_vagrant?reconnect=true');
 
 /** The name of the database for WordPress */
 define('DB_NAME', trim($url['path'], '/'));
