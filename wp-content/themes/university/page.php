@@ -14,7 +14,7 @@
 get_header(); ?>
 
 <?php get_sidebar(); ?>
-<div id="main">
+
 	<main id="main" class="site-main" role="main">
 		<?php
 		// Start the loop.
@@ -36,6 +36,6 @@ get_header(); ?>
 
 	<?php get_sidebar( 'content-bottom' ); ?>
 
-</div><!-- .content-area -->
+<!-- .content-area -->
 
 <?php get_footer(); ?>

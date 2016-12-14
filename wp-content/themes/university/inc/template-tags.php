@@ -20,7 +20,7 @@ if ( ! function_exists( 'twentysixteen_entry_meta' ) ) :
 function twentysixteen_entry_meta() {
 	if ( 'post' === get_post_type() ) {
 		$author_avatar_size = apply_filters( 'twentysixteen_author_avatar_size', 49 );
-		printf( '<span class="byline"><span class="author vcard">%1$s<span class="screen-reader-text">%2$s </span> <a class="url fn n" href="%3$s">%4$s</a></span></span>',
+		printf( '<span class="byline"><span class="author vcard">%1$s<span class="screen-reader-text"> %2$s </span> <a class="url fn n" href="%3$s">%4$s</a></span></span> ',
 			get_avatar( get_the_author_meta( 'user_email' ), $author_avatar_size ),
 			_x( 'Author', 'Used before post author name.', 'twentysixteen' ),
 			esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
@@ -40,16 +40,17 @@ function twentysixteen_entry_meta() {
 			get_post_format_string( $format )
 		);
 	}
-
+/*
 	if ( 'post' === get_post_type() ) {
 		twentysixteen_entry_taxonomies();
-	}
-
+	}*/
+/*
 	if ( ! is_singular() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
-		echo '<span class="comments-link">';
-		comments_popup_link( sprintf( __( 'Leave a comment<span class="screen-reader-text"> on %s</span>', 'twentysixteen' ), get_the_title() ) );
+		echo '</br><span class="comments-link">';
+		comments_popup_link(__('Leave a Comment'));
 		echo '</span>';
-	}
+	}*/
+	echo '</br> ';
 }
 endif;
 
@@ -65,17 +66,15 @@ function twentysixteen_entry_date() {
 	$time_string = '<time class="entry-date published updated" datetime="%1$s">%2$s</time>';
 
 	if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) ) {
-		$time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time><time class="updated" datetime="%3$s">%4$s</time>';
+		$time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time>';
 	}
 
 	$time_string = sprintf( $time_string,
 		esc_attr( get_the_date( 'c' ) ),
-		get_the_date(),
-		esc_attr( get_the_modified_date( 'c' ) ),
-		get_the_modified_date()
+		get_the_date()
 	);
 
-	printf( '<span class="posted-on"><span class="screen-reader-text">%1$s </span><a href="%2$s" rel="bookmark">%3$s</a></span>',
+	printf( '<span class="posted-on"><span class="screen-reader-text">%1$s </span>%3$s</span> ',
 		_x( 'Posted on', 'Used before publish date.', 'twentysixteen' ),
 		esc_url( get_permalink() ),
 		$time_string

@@ -41,19 +41,7 @@
 			<div class="footer-area third"></div><!-- EOF: .footer-area -->
 		</div><!-- EOF: #footer-inside -->
 	</div><!-- EOF: #footer -->
-	<!-- Footer -->
-	<div id="footer-bottom">
-		<div id="footer-bottom-inside">
-			<div id="footer-bottom-left">
-				<ul class="secondary-menu links clearfix">
-					<li class="menu-695 first last">
-						<a href="/aggregator">Ленты новостей</a>
-					</li>
-				</ul>
-			</div>
-			<div id="footer-bottom-right"></div><!-- EOF: #footer-bottom-right -->
-		</div><!-- EOF: #footer-bottom-inside -->
-	</div><!-- EOF: #footer -->
+
 	</div><!-- .site-inner -->
 </div><!-- .site -->
 

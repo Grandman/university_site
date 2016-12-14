@@ -1950,3 +1950,11 @@ div.ctools-ajaxing {
     width: 18px;
     background: url(/modules/ctools/images/status-active.gif) center center no-repeat;
 }
+
+.entry-content {
+	margin-top: 20px;
+}
+
+.entry-footer {
+	margin-bottom: 60px;
+}
