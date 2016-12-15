@@ -13,8 +13,8 @@
 		<?php if ( is_sticky() && is_home() && ! is_paged() ) : ?>
 			<span class="sticky-post"><?php _e( 'Featured', 'twentysixteen' ); ?></span>
 		<?php endif; ?>
-
 		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+		<?php twentysixteen_entry_meta(); ?>
 	</header><!-- .entry-header -->
 
 	<?php twentysixteen_excerpt(); ?>
@@ -41,15 +41,18 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php twentysixteen_entry_meta(); ?>
+		<?php
+			if ( ! is_singular() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
+				echo '</br><span class="comments-link">';
+				comments_popup_link(__('Leave a Comment'));
+				echo '</span>';
+			}
+		?>
 		<?php
 			edit_post_link(
-				sprintf(
 					/* translators: %s: Name of current post */
-					__( 'Edit<span class="screen-reader-text"> "%s"</span>', 'twentysixteen' ),
-					get_the_title()
-				),
-				'<span class="edit-link">',
+					__( 'Edit' )					,
+				'</br><span class="edit-link">',
 				'</span>'
 			);
 		?>

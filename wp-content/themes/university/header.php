@@ -55,7 +55,7 @@
 <div id="header-menu">
     <div id="header-menu-inside">
       <ul class="menu">
-        <li class="first leaf"><a href="/node/414">Абитуриентам</a></li>
+        <li class="first leaf"><a href="/enrollee">Абитуриентам</a></li>
 		<li class="leaf"><a href="/news" title="Новости сайта">Новости</a></li>
 		<li class="expanded"><a href="/prep">Преподаватели</a>
           <ul class="menu">
@@ -112,8 +112,8 @@
      </li>
 	 <li class="expanded"><a href="/science">Наука</a>
        <ul class="menu">
-         <li class="first collapsed"><a href="/node/739">ПИС</a></li>
-	     <li class="leaf"><a href="/node/908">СНТК</a></li>
+         <li class="first collapsed"><a href="/pis">ПИС</a></li>
+	     <li class="leaf"><a href="/sntk">СНТК</a></li>
 		 <li class="leaf"><a href="/science/nir" title="">НИР</a></li>
 		 <li class="last leaf"><a href="/science/nirs" title="">НИРС</a></li>
 	   </ul>
