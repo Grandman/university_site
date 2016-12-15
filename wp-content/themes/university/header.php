@@ -65,7 +65,7 @@
 			<li class="leaf"><a href="/prep/ssv">Скворцов С. В.</a></li>
 			<li class="leaf"><a href="/prep/vvv">Воронина В. В.</a></li>
 			<li class="leaf"><a href="/prep/eon">Евсеева О. Н.</a></li>
-			<!--<li class="leaf"><a href="/prep/ksv">Куркина С.В.</a></li>
+			<li class="leaf"><a href="/prep/ksv">Куркина С.В.</a></li>
 			<li class="leaf"><a href="/prep/lob">Ларионова О. Б.</a></li>
 			<li class="leaf"><a href="/prep/mpv">Мытарев П. В.</a></li>
 			<li class="leaf"><a href="/prep/nam">Наместников А. М.</a></li>
@@ -83,7 +83,7 @@
 			<li class="leaf"><a href="/prep/mvs">Мошкин В. С.</a></li>
 			<li class="leaf"><a href="/prep/tia">Тимина И. А.</a></li>
 			<li class="leaf"><a href="/prep/een">Эгов Е. Н.</a></li>
-			<li class="last leaf"><a href="/prep/ydv">Яшин Д. В.</a></li>-->
+			<li class="last leaf"><a href="/prep/ydv">Яшин Д. В.</a></li>
 	      </ul>
         </li>
 		<li class="expanded"><a href="/napr">Направления</a>
