@@ -65,7 +65,7 @@
 			<li class="leaf"><a href="/prep/ssv">Скворцов С. В.</a></li>
 			<li class="leaf"><a href="/prep/vvv">Воронина В. В.</a></li>
 			<li class="leaf"><a href="/prep/eon">Евсеева О. Н.</a></li>
-			<li class="leaf"><a href="/prep/ksv">Куркина С.В.</a></li>
+			<!--<li class="leaf"><a href="/prep/ksv">Куркина С.В.</a></li>
 			<li class="leaf"><a href="/prep/lob">Ларионова О. Б.</a></li>
 			<li class="leaf"><a href="/prep/mpv">Мытарев П. В.</a></li>
 			<li class="leaf"><a href="/prep/nam">Наместников А. М.</a></li>
@@ -83,7 +83,7 @@
 			<li class="leaf"><a href="/prep/mvs">Мошкин В. С.</a></li>
 			<li class="leaf"><a href="/prep/tia">Тимина И. А.</a></li>
 			<li class="leaf"><a href="/prep/een">Эгов Е. Н.</a></li>
-			<li class="last leaf"><a href="/prep/ydv">Яшин Д. В.</a></li>
+			<li class="last leaf"><a href="/prep/ydv">Яшин Д. В.</a></li>-->
 	      </ul>
         </li>
 		<li class="expanded"><a href="/napr">Направления</a>
@@ -107,7 +107,22 @@
              </li>
 		   </ul>
          </li>
-		 <li class="last collapsed"><a href="/mag">Магистратура</a></li>
+		 <li class="last expanded"><a href="/mag">Магистратура</a>
+			<ul class="menu">
+				<li class="first expanded"><a href="/ISEmd">Прикладная информатика</a>
+					<ul class="menu">
+					  <li class="first leaf"><a href="/ISEmd-1">Курс 1</a></li>
+					  <li class="leaf"><a href="/ISEmd-2">Курс 2</a></li>
+					</ul>
+				 </li>
+				 <li class="last expanded"><a href="/PImd">Программная инженерия</a>
+				   <ul class="menu">
+					 <li class="first leaf"><a href="/PImd-1">Курс 1</a></li>
+					 <li class="leaf"><a href="/PImd-2">Курс 2</a></li>
+				   </ul>
+				 </li>
+			</ul>
+		 </li>
        </ul>
      </li>
 	 <li class="expanded"><a href="/science">Наука</a>
