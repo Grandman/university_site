@@ -107,7 +107,22 @@
              </li>
 		   </ul>
          </li>
-		 <li class="last collapsed"><a href="/mag">Магистратура</a></li>
+		 <li class="last expanded"><a href="/mag">Магистратура</a>
+			<ul class="menu">
+				<li class="first expanded"><a href="/ISEmd">Прикладная информатика</a>
+					<ul class="menu">
+					  <li class="first leaf"><a href="/ISEmd-1">Курс 1</a></li>
+					  <li class="leaf"><a href="/ISEmd-2">Курс 2</a></li>
+					</ul>
+				 </li>
+				 <li class="last expanded"><a href="/PImd">Программная инженерия</a>
+				   <ul class="menu">
+					 <li class="first leaf"><a href="/PImd-1">Курс 1</a></li>
+					 <li class="leaf"><a href="/PImd-2">Курс 2</a></li>
+				   </ul>
+				 </li>
+			</ul>
+		 </li>
        </ul>
      </li>
 	 <li class="expanded"><a href="/science">Наука</a>
