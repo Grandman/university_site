@@ -71,7 +71,7 @@ function twentysixteen_entry_date() {
 
 	$time_string = sprintf( $time_string,
 		esc_attr( get_the_date( 'c' ) ),
-		get_the_date()
+		get_the_date().' - '.get_the_time()
 	);
 
 	printf( '<span class="posted-on"><span class="screen-reader-text">%1$s </span>%3$s</span> ',
