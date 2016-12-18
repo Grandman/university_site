@@ -14,7 +14,7 @@
     <div class="region region-content">
 		<div id="block-system-main" class="block block-system">
 			<div class="content">
-				<form name="user-login-form" id="user-login-form" action="http://wpvagrant.dev/wp-login.php" method="post">	
+				<form name="user-login-form" id="user-login-form" action="/wp-login.php" method="post">	
 				  <div>
 					<div class="form-item form-type-textfield form-item-name">
 					  <label for="edit-name">Имя пользователя <span class="form-required" title="Обязательно для заполнения.">*</span></label>

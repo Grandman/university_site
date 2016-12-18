@@ -8,7 +8,7 @@ $current_url = home_url(add_query_arg(array(),$wp->request));
 	<div id="block-user-login" class="block block-user">
       <h2>Вход в аккаунт</h2>
       <div class="content">
-	  <form name="user-login-form" id="user-login-form" action="http://wpvagrant.dev/wp-login.php" method="post">			
+	  <form name="user-login-form" id="user-login-form" action="/wp-login.php" method="post">			
 		<div class="form-item form-type-textfield form-item-name">
 			<label for="edit-name">Имя пользователя <span class="form-required" title="Обязательно для заполнения.">*</span></label>
 			<input type="text" name="log" id="edit-name" class="input form-text required" value="" size="15" maxlength="60">
