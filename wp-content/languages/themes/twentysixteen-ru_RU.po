@@ -319,6 +319,10 @@ msgstr "Ой! Страница не найдена."
 msgid "the WordPress team"
 msgstr "Команда WordPress"
 
+#. Access denied
+msgid "Access denied"
+msgstr "Доступ запрещен"
+
 #. Theme URI of the plugin/theme
 msgid "https://wordpress.org/themes/twentysixteen/"
 msgstr "https://wordpress.org/themes/twentysixteen/"
